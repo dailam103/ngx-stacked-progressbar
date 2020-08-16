@@ -1,0 +1,23 @@
+.tooltip {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.description {
+  display: none;
+  position: absolute;
+  font-size: 12px;
+  line-height: 1.6em;
+  color: #fff;
+  border-radius: 5px;
+  background: #000;
+  width: 100%;
+  margin-top: 2px;
+  top: 100%;
+}
+
+
+.tooltip:hover .description {
+  display: block;
+}
