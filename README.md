@@ -2,6 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/ngx-stacked-progressbar.svg?style=flat-square)](https://www.npmjs.com/package/ngx-stacked-progressbar)
 
+Simple 100% stacked progressbar
 
 <img src="https://raw.githubusercontent.com/dailam103/ngx-stacked-progressbar/HEAD/assets/demo.png" alt="Example" width="700"/>
 

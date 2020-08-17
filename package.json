@@ -1,6 +1,12 @@
 {
   "name": "ngx-stacked-progressbar",
-  "version": "0.0.9",
+  "version": "0.0.10",
+  "keywords": ["100% stacked progessbar", "progressbar", "stacked"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dailam103/ngx-stacked-progressbar"
+  },
   "dependencies": {
     "tslib": "^1.10.0"
   },
