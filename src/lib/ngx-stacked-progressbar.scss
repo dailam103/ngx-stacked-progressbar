@@ -1,20 +1,17 @@
 .tooltip {
   position: relative;
   cursor: pointer;
-  display: inline-block;
 }
 
 .description {
   display: none;
   position: absolute;
-  font-size: 12px;
-  line-height: 1.6em;
   color: #fff;
   border-radius: 5px;
-  background: #000;
-  width: 100%;
+  background: #000000B0;
   margin-top: 2px;
   top: 100%;
+  padding: 2px;
 }
 
 

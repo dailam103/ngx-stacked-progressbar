@@ -1,17 +1,19 @@
 <div [ngStyle]="{
-  'width': width,
-  'height': height,
-  'flex-direction': 'row',
-  'box-sizing': 'border-box',
-  'display': 'flex',
-  'font-size': fontSize
-}">
+    'width': width,
+    'height': height,
+    'flex-direction': 'row',
+    'box-sizing': 'border-box',
+    'display': 'flex',
+    'font-size': fontSize
+  }">
   <ng-container *ngFor="let item of data; index as i">
     <div [ngStyle]="{
         'background-color': getBgColor(i),
         'height': '100%',
         'width': getPercent(item?.value) + '%',
-        'text-align': 'center',
+        'display': 'flex',
+        'justify-content': 'center',
+        'align-items': 'center',
         'color': getColor(i)
       }" class="tooltip">
       {{ getDisplayValue(i) }}
